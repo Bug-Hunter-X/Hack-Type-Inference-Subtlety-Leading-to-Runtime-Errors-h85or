@@ -1,0 +1,1 @@
+This repository demonstrates a subtle type inference bug in Hack. The code compiles without errors, but it can lead to runtime errors if the types of the functions are not precisely defined.  The `bug.hack` file contains the buggy code, while `bugSolution.hack` provides a solution that uses more explicit type annotations to prevent the issue.
